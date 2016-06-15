@@ -1,0 +1,31 @@
+{
+  "name": "connected-galaxy-server",
+  "version": "0.1.0",
+  "description": "This is the server part of the connected-galaxy app.",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "meteor run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goyapa/connected-galaxy-server.git"
+  },
+  "keywords": [
+    "meteor",
+    "ddp",
+    "IoT"
+  ],
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "author": "Michael Macherey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Goyapa/connected-galaxy-server/issues"
+  },
+  "homepage": "https://github.com/Goyapa/connected-galaxy-server#readme"
+}
